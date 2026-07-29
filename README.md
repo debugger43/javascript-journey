@@ -4,7 +4,7 @@ Learning JavaScript from fundamentals to React.
 
 ## Progress
 
-- [ ] Variables & Scope
+- [✅] Variables & Scope
 - [ ] Functions
 - [ ] Objects
 - [ ] Arrays
