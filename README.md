@@ -5,7 +5,7 @@ Learning JavaScript from fundamentals to React.
 ## Progress
 
 - [✅] Variables & Scope
-- [ ] Functions
+- [ ] DataTypes
 - [ ] Objects
 - [ ] Arrays
 - [ ] Array Methods
