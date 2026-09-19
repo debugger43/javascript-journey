@@ -73,3 +73,69 @@ do {
     b += 2;
 
 } while (b <= 6);
+
+
+// break
+
+for (i = 1; i <= 6; i++) {
+    if (i === 4) {
+        break;
+    }
+
+    console.log(i);
+
+}
+
+
+// continue
+
+for (i = 1; i <= 5; i++) {
+    if (i === 3) {
+        continue;
+    }
+
+    console.log(i);
+
+}
+
+
+// challenges
+
+// 1
+
+for (i = 1; i <= 10; i++) {
+    if (i % 2 !== 0) {
+        continue;
+    }
+
+    console.log(i);
+
+}
+
+// 2
+
+for (i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        break;
+    }
+
+    console.log(i);
+
+}
+
+
+// 3
+
+for (i = 1; i <= 10; i++) {
+    if (i % 2 === 0) {
+        continue;
+    }
+
+    if (i === 7) {
+        break;
+    }
+
+    console.log(i);
+
+}
+
