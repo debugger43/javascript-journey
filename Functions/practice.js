@@ -118,3 +118,88 @@ function test() {
 }
 
 test();
+
+
+// callbacks
+
+function one() {
+    console.log("one");
+    
+}
+
+function two() {
+    console.log("two");
+    
+}
+
+function run(fn) {
+    fn();
+} 
+
+run(two);
+run(one);
+
+
+// callback function - A function passed into another function to be called later is called a callback function.
+
+
+function first() {
+  console.log("First");
+}
+
+function second() {
+  console.log("Second");
+}
+
+function runBoth(fn1, fn2) {
+  fn2();
+  fn1();
+}
+
+runBoth(first, second);
+
+
+// Higher-order functions - A higher-order function is a function that takes another function as an argument OR returns a function.
+
+
+function adds() {
+    console.log(5 + 5);
+    
+}
+
+function execute(fn) {
+    fn();
+}
+
+execute(adds);
+
+
+
+// arguments Object
+
+function test(a, b) {
+  console.log(a);
+  console.log(b);
+  console.log(arguments[2]);
+}
+
+test(10, 20, 30);
+
+
+// rest parameters
+
+function addAll(...numbers) {
+  console.log(numbers);
+}
+
+addAll(10, 20, 30, 40);
+
+
+// we can combine normal parameters with rest
+
+function combine(first, ...others) {
+    console.log(first);
+    console.log(others);
+}
+
+combine(1, 2, 3, 4);
